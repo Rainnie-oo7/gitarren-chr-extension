@@ -1,0 +1,42 @@
+﻿.container {
+    width: 380px;
+    color: #314d3e;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.textbox {
+    width: 100%;
+    font-size: 14px;
+    margin: 2px;
+    padding: 0px 2px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 8px 6px;
+    height: 38px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+
+.textbox:focus {
+    outline: 1px;
+    border-color: #66afe9;
+}
+
+.resizable {
+    resize: both;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+p {
+    font-family: "Courier New", monospace;
+}

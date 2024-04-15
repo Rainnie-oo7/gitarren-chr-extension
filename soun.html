@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <br> Play e' (1st String). <br />
+    <audio controls>
+        <source src="e4.wav" type="audio/wav">
+    </audio>
+    <br> Play b  (2nd String). <br />
+    <audio controls>
+        <source src="b3.wav" type="audio/wav">
+    </audio>
+    <br> Play g  (3rd String). <br />
+    <audio controls>
+        <source src="g3.wav" type="audio/wav">
+    </audio>
+    <br> Play d  (4th String). <br />
+    <audio controls>
+        <source src="d3.wav" type="audio/wav">
+    </audio>
+    <br> Play A  (5th String). <br />
+    <audio controls>
+        <source src="a2.wav" type="audio/wav">
+    </audio>
+    <br> Play E  (6th String). <br />
+    <audio controls>
+        <source src="e2.wav" type="audio/wav">
+    </audio>
+    ______________________________________________the undere code doesn't work__________________________________
+    <audio src="e4.wav" id="audio1" controls style="display: none;">
+
+        <audio src="b3.wav" id="audio" controls style="display: none;">
+            <audio src="g3.wav" id="audio" controls style="display: none;">
+                <audio4 src="d3.wav" id="audio" controls style="display: none;">
+                    <audio5 src="a2.wav" id="audio" controls style="display: none;">
+                        <audio6 src="e2.wav" id="audio" controls style="display: none;">
+
+                            <button type="button" onclick="playAudio();">
+                                Play e' (1th String)
+                            </button>
+                            <button type="button" onclick="playAudio();">
+                                Play b  (2th String)
+                            </button>
+                            <button type="button" onclick="playAudio();">
+                                Play g  (3th String)
+                            </button>
+                            <button type="button" onclick="playAudio();">
+                                Play d  (4th String)
+                            </button>
+                            <button type="button" onclick="playAudio();">
+                                Play A  (5th String)
+                            </button>
+                            <button type="button" onclick="playAudio();">
+                                Play E  (6th String)
+                            </button>
+
+                            <script>
+                                function playAudio() {
+                                    document.getElementById("audio1").play();
+                                }
+                                function playAudio() {
+                                    document.getElementById("audio2").play();
+                                }
+                                function playAudio() {
+                                    document.getElementById("audio3").play();
+                                }
+                                function playAudio() {
+                                    document.getElementById("audio4").play();
+                                }
+                                function playAudio() {
+                                    document.getElementById("audio5").play();
+                                }
+                                function playAudio() {
+                                    document.getElementById("audio6").play();
+                                }
+                            </script>
+</body>
+</html>

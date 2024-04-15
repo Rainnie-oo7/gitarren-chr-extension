@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="module" src="main.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=460, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Guitar Tab Beforehand Play Launcher</title>
+    <style>
+        p span {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Guitar Tab Beforehand Play Launcher</h1>
+    </header>
+
+    <main>
+        <h2>Home</h2>
+        <p>
+            Öpre, , ipsum dolor sit amet consectetut adipisicing elit. Facilis reppelendus eligemdo blanditis
+        </p>
+        <textarea id="tda" style="height:100px;width:300px" ; placeholder="sssss"></textarea>
+        <p id="tda"></p>
+<script>
+    const arrayColumn = (arr, n) => arr.map((x) => x[n]);
+
+const twoDimensionalArray = [
+    [1, 0, 3, 6, 6],
+    [6, 4, 4, 0, 4],        //!!!!SOOOO We have to plus 1 everything (and "-" must be "0".)
+    [6, 5, 3, 5, 8],
+    [6, 0, 1, 5, 7],
+    [0, 0, 0, 5, 8],        //how to mirror a matrix
+    [0, 0, 0, 5, 0],        //we have to strum from the bottom (6. String) an.
+];
+/*
+    [0, -, 2, 5, 5],
+    [5, 3, 3, -, 3],    //> What the original Tab looked like
+    [5, 4, 2, 4, 7],
+    [5, -, 0, 4, 6],                //Idea: Chordcaller Chordfinder would be awesome!
+    [-, -, -, 4, 7],                //Like: THis is C Major. , THis is C Major
+    [-, -, -, 4, -],
+*/                      //Problem as well: How we >>read<< two-digits (10-24 fret) out ???
+
+//writes the orig. column array in a Textarea. 
+document.getElementById("tda").innerHTML = arrayColumn(twoDimensionalArray, 0) + '\n' + arr; //writes in textarea (=id)
+console.log(arrayColumn(twoDimensionalArray, 0));
+
+//writes reversed column array in the page. 
+var arr = arrayColumn(twoDimensionalArray, 0).reverse();
+         document.write(arr); 
+
+if (i=0 = 0){}  
+</script>
+
+
+
+<script src="cyk.js"></script>
+
+
+_______________________________________________________________________________________
+        <input type="text" value="Hello World" id="myInput">
+        <button onclick="myFunction()">Copy text</button>
+
+        <script>
+
+            function myFunction() {
+                /* Get the text field */
+                var copyText = document.getElementById("myInput");
+
+                /* Select the text field */
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+                /* Copy the text inside the text field */
+                navigator.clipboard.writeText(copyText.value);
+
+                /* Alert the copied text */
+                alert("Copied the text: " + copyText.value);
+            }
+        </script>
+
+_______________________________________________________________________________________
+
+        <button type="button" onclick="document.write(5 + 7)">Try it add 5 to 7</button>
+
+
+
+
+        <script>
+            var x = document.createElement("div");  // Creates a new <div> node
+            x.textContent = "Hello, world created element jo!";         // Sets the text content
+            document.body.appendChild(x);           // Adds to the document
+            document.write(x);
+        </script>
+
+        <script type="text/javascript">
+            function add() {
+                var a = document.getElementById("t0").value;
+                alert(a);
+            }
+
+        </script>
+
+    </main>
+    <script src="main.js">soundsoundPlayer</script>
+    <script src="main.js">playSound</script>
+
+
+</body>
+
+
+<div class="container">
+      <?php
+       echo date('h:i:s A');
+        ?>
+
+    <form action="" target="_blank">
+        <textarea id="t1" style="height:200px;width:460px" ; placeholder="Put a Tab in Here"></textarea>
+        <input type="submit" value="Submit" id="t1" ; size="50" ; style="height:70px; font-size:12pt;">
+
+    </form>
+
+</div>
+
+
+
+</script>
+<p id="ausschuss"></p>
+
+<script>
+    document.getElementById("t1").innerHTML = 5 + 8;
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var data = document.getElementById("t1").value;
+        //Save it to the localStorage variable which will always remember what you store in it
+        localStorage["inputText"] = data;
+
+        var array = [new array1(n), new array2(n), new array3(n), new array4(n), new array5(n), new array6(n)]; //..your 6xn array //falsch! hier muss user input verarbeitete von .php kommen (erste Zeile erster Array, zweite ...usw)
+        var col = [new array[i][1], new array[i][2], new array[i][3], new array[i][4], new array[i][5], new array[i][6]];   //????????
+        function getCol(array1, array2, array3, array4, array5, array6, col) {
+            var column = [];
+            getCol(array1, 0); //Get zeroed column in the first String
+            getCol(array2, 0); //Get zeroed column in the scond String
+            getCol(array3, 0);
+            getCol(array4, 0);
+            getCol(array5, 0);
+            getCol(array6, 0);
+            return column;
+        }
+        for (var i = 0; i < array.length; i++) {
+            array.push(column[i][n]);
+        }
+
+
+        var column = [];
+        for (var i = 0; i < matrix.length; i++) {
+            column.push(matrix[i][col]);
+        }
+        return column; // return column data..
+
+        //const column = {
+        //    prop: 42,
+        //    func: function () {
+        //        return this.prop;
+        //    },
+        //};
+
+        console.log(column.array());
+    }
+
+    document.write(array);
+    document.write(array1);
+    document.write(array2);
+    document.write(array3);
+    document.write(array4);
+    document.write(array5);
+    document.write(array6);
+    document.write(column);
+    }
+
+</script>
+
+<p id="columni">
+    <script>
+        document.getElementById("columni").innerHTML;
+        localStorage.setItem('columni', 'column');
+        let myName = localStorage.getItem('columni');
+    </script>
+</p>
+
+
+<div>
+    <div class="title">Guitar Tab Player Beforehand Launcher &nbsp; &hellip; &nbsp; Easily bypass Ultimate-Guitar Pro. &nbsp; &hellip; &nbsp; &nbsp; by &mdash; Boris  Grillborzer</div>
+
+    <div class="bookmarks" id="bookmarks"></div>
+
+    <input type="text" value="For in that sleep of death, what dreams may come" />
+
+    <input type="text" value="what dreams?" />
+</div>
+</div>
+
+</html>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
